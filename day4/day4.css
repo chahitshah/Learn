@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1769631417306-a1da09f42b20");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#main h1{
+    color: white;
+    padding-top: 70px;
+    margin-left: 70px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+#main button{
+    font-family: 'Pacifico', cursive;
+    margin-top: 30px;
+    margin-left: 270px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 13px;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#main button:hover{
+    background-color: white;
+    color: black;
+}
