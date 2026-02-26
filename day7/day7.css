@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/in/iphone-17-pro/images/overview/highlights/highlights_design_endframe__flnga0hibmeu_medium_2x.jpg);
+    background-position:top;
+    background-size: cover;
+}
+
+#navbar{
+    
+    background-color: rgb(34, 33, 33);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 90px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+i{
+    color: white;
+}
+
+#second h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 50px;
+}
+p{
+    color: white;
+     display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+button{
+    position: absolute;
+    color: white;
+    border-radius:50px ;
+    padding-top: 20px;
+}
+
+#first{
+    left: 490px;
+    margin: 20px;
+    padding: 20px;
+    background-color: blue;
+    padding-left: 30px;
+    padding-right: 30px
+    ;
+    
+}
+
+#second{
+    left: 660px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    
+}
